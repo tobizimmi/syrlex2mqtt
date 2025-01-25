@@ -29,7 +29,7 @@ The SYR water softening units of the LEX Plus series, e.g. LEX Plus 10 Connect o
 
 Currently the following devices are known to work:
 - LEX Plus 10 Connect
-  - Unknown firmware version
+  - firmware TLP0 1.7 (uses HTTP)
 - LEX Plus 10 S Connect
   - firmware SLPS 1.7 (uses HTTP)
   - firmware SLPS 1.9 (uses HTTPS but without validating the certificate)
