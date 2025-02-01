@@ -513,7 +513,7 @@ async function initWebServer() {
 		next();
 	});
 	
-	app.post('/WebServices/SyrConnectLimexWebService.asmx/GetBasicCommands', (req, res) => {
+	app.get('/WebServices/SyrConnectLimexWebService.asmx/GetBasicCommands', (req, res) => {
 		basicCommands(req, res);
 	});
 	app.post('/GetBasicCommands', (req, res) => {
